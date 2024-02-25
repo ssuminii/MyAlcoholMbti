@@ -1,0 +1,8 @@
+body {
+    background-color: pink;
+}
+
+/* *: 모든 것 */
+*{ 
+    font-family: 'Gaegu', cursive;
+}

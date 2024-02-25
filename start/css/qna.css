@@ -1,0 +1,28 @@
+/* main에서 qna페이지 안보이게 하기 */
+#qna{
+    display: none;
+}
+
+.qBox{
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.answerList{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    /* 질문 하나당 한줄씩 */
+    display: block;
+    width: 80%;
+    border: 0px;
+    font-size: 15px;
+}
+
+/* 마우스가 버튼 위에 있을 때와 클릭했을 때의 효과 */
+.answerList:hover, .answerListL:focus{
+    background-color: pink;
+    color:whitesmoke;
+}

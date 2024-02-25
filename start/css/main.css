@@ -1,0 +1,13 @@
+#main {
+    /* 배경색과 넓이 */
+    background-color: whitesmoke;
+    width: 80%;
+    /* text 중앙 */
+    text-align: center;
+    /* 배경 모서리 둥글게 */
+    border-radius: 20px;
+}
+
+p{
+    font-size: 20px;
+}
